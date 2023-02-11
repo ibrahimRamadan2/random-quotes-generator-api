@@ -1,0 +1,15 @@
+.venv
+.venv/
+*/__pycache__
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+build/
+*.manifest
+*.cache
+.pytest_cache/
+.vscode
