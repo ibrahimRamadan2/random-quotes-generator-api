@@ -1,7 +1,4 @@
 from django.urls import path
 from . import views
 
-# urlpatterns = [
-#     path("random" , )
-# ]
-
+urlpatterns = [path("random", views.QouteView.as_view())]
