@@ -1,8 +1,18 @@
-# random-quotes-generator-api
+# Random-quotes-generator-api
 Api that return random quote in every request 
 
+## Features
+- return random quote with it's aithor 
+- generate a report after 100 request with quots and it's displayed count
 
-## installation
+## Response format 
+{
+  "id": [quote id],
+  "quote":[quote text],
+  "author":[quote author]
+}
+
+## Installation
 
 1- clone the project <br /> 
 2- create vertual env with this command "py -3 -m venv .venv"<br /> 
