@@ -52,5 +52,7 @@ class QouteView(APIView):
 
     def get(slef, request):
         quote = get_random()
+        quote.count += 1
+        quote.save()
         quote_serializer = qoute_serializer(quote)
         return Response(quote_serializer.data, status.HTTP_200_OK)

@@ -7,4 +7,4 @@ class qoute_serializer(serializers.ModelSerializer):
 
     class Meta:
         model = Quote
-        fields = '__all__'
+        exclude = ["count"]

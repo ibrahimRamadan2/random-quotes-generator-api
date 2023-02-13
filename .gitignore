@@ -13,3 +13,4 @@ build/
 *.cache
 .pytest_cache/
 .vscode
+report/
