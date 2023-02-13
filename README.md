@@ -6,11 +6,11 @@ Api that return random quote in every request
 - generate a report after 100 request with quots and it's displayed count
 
 ## Response format 
-{
-  "id": [quote id],
-  "quote":[quote text],
-  "author":[quote author]
-}
+{"<br /> 
+  "id": [quote id],"<br /> 
+  "quote":[quote text],"<br /> 
+  "author":[quote author]"<br /> 
+}"<br /> 
 
 ## Installation
 
