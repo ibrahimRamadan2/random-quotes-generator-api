@@ -25,5 +25,5 @@ def check_counter():
             cnt = 0
     with open("api/counter.txt", "w") as file:
         file.write(str(cnt))
-    if (cnt % 2 == 0):
+    if (cnt % 100 == 0):
         create_report()
